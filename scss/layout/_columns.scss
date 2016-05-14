@@ -1,0 +1,11 @@
+/* Floated Columns ------------------ */
+
+
+.tips {
+  @extend %columns;
+  float: left;
+}
+
+.resorts {
+  float: right;
+}
