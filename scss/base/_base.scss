@@ -32,7 +32,7 @@ h3 {
 img {
   max-width: 100%;
   margin-bottom: 20px;
-  border-radius: 10px;
+  border-radius: $br;
 }
 
 ul,
@@ -57,6 +57,6 @@ a {
   }
 
   &:hover {
-    color: $color-link-default .5);
+    color: ($color-link-default .5);
   }
 }
